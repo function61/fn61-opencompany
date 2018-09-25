@@ -40,8 +40,12 @@ start with and customize from there where needed.
 
 | Problem                         | Solution                                                                   |
 |---------------------------------|----------------------------------------------------------------------------|
-| Programming language            | [Go](https://golang.org/)                                                  |
-| Build system                    | [Turbo Bob](https://github.com/function61/turbobob)                        |
+| Programming language, backend   | [Go](https://golang.org/)                                                  |
+| Programming language, frontend  | [TypeScript](https://www.typescriptlang.org/)                              |
+| Frontend UI architecture        | [React](https://reactjs.org/)                                              |
+| Build system                    | [Turbo Bob](https://github.com/function61/turbobob) ([builder pattern](https://blog.alexellis.io/mutli-stage-docker-builds/))      |
+| CI system                       | [Travis CI](http://travis-ci.org) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
+| Source code hosting             | [GitHub](http://github.com/) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
 | Log shipping                    | That's an infrastructure concern                                           |
 | Persistence                     | [Eventhorizon](https://github.com/function61/eventhorizon) + [BoltDB](https://github.com/etcd-io/bbolt) |
 | Session mechanism               | [JWT](https://jwt.io/)                                                     |
