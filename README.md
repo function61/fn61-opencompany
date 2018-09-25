@@ -13,7 +13,7 @@ Infrastructure level decisions
 | Single or multi-DC availability | Multi-DC, probably multi-vendor as well for safety                         |
 | OS                              | [CoreOS](https://coreos.com/os/docs/latest/) with auto-updates disabled    |
 | Infrastructure immutability     | [Packer](https://www.packer.io/) + [Terraform](https://www.terraform.io/)  |
-| PKI                             | Root CA in Yubikey, [cfssl](https://github.com/cloudflare/cfssl)           |
+| PKI                             | Root CA in Yubikey, [cfssl](https://github.com/cloudflare/cfssl). [Our toolkit image](https://github.com/function61/certificate-authority). |
 | Secure auth to SSH              | Agent + [Yubikey](https://www.yubico.com/products/yubikey-hardware/)       |
 | Containerization                | [Docker](https://www.docker.com/)                                          |
 | Orchestration                   | [Docker Swarm](https://docs.docker.com/engine/swarm/)                      |
