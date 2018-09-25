@@ -20,6 +20,8 @@ Infrastructure level decisions
 | Container cross-host networking | Docker Swarm                                                               |
 | Orchestration dashboard         | [Portainer](https://portainer.io/)                                         |
 | Backups                         | Cloud provider's VM snapshots for now (TODO: something more efficient)     |
+| Domain registrar                | [AWS Route53](https://aws.amazon.com/route53/)                             |
+| DNS                             | [Cloudflare](https://www.cloudflare.com/)                                  |
 | DDOS protection                 | [Cloudflare](https://www.cloudflare.com/)                                  |
 | Logging                         | [LogEntries](https://logentries.com/)                                      |
 | Alerting                        | [function61/lambda-alertmanager](https://github.com/function61/lambda-alertmanager) |
