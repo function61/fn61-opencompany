@@ -47,6 +47,8 @@ start with and customize from there where needed.
 | Build system                    | [Turbo Bob](https://github.com/function61/turbobob) ([builder pattern](https://blog.alexellis.io/mutli-stage-docker-builds/))      |
 | CI system                       | [Travis CI](http://travis-ci.org) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
 | Source code hosting             | [GitHub](http://github.com/) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
+| Container image hosting         | [Docker Hub](https://hub.docker.com/) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff. |
+| Build artefact hosting          | [Bintray](https://bintray.com/) for public stuff, [AWS S3](https://aws.amazon.com/s3/) for private stuff. |
 | Log shipping                    | That's an infrastructure concern                                           |
 | Persistence                     | [Eventhorizon](https://github.com/function61/eventhorizon) + [BoltDB](https://github.com/etcd-io/bbolt) |
 | Session mechanism               | [JWT](https://jwt.io/)                                                     |
