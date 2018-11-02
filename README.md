@@ -39,8 +39,14 @@ Application level decisions
 While some applications require different solutions for different problems, this is the basic stack we
 start with and customize from there where needed.
 
+Always prefer statically compiled languages. The more safety (= "if it compiles, it
+probably works") the language guarantees, the better. Humans make mistakes - get tools
+that help with that.
+
+
 | Problem                         | Solution                                                                   |
 |---------------------------------|----------------------------------------------------------------------------|
+| Philosophy                      | [The Twelfe-Factor App](https://12factor.net/)                             |
 | Programming language, backend   | [Go](https://golang.org/)                                                  |
 | Programming language, frontend  | [TypeScript](https://www.typescriptlang.org/)                              |
 | Frontend UI architecture        | [React](https://reactjs.org/)                                              |
