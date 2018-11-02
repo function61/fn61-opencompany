@@ -12,7 +12,7 @@ Infrastructure level decisions
 | Cloud lock-in                   | Only compute to maximize portability, everything else like queues from AWS |
 | Single or multi-DC availability | Multi-DC, probably multi-vendor as well for safety                         |
 | OS                              | [CoreOS](https://coreos.com/os/docs/latest/) with auto-updates disabled    |
-| Infrastructure immutability     | [Packer](https://www.packer.io/) + [Terraform](https://www.terraform.io/)  |
+| Infrastructure immutability     | [Packer](https://www.packer.io/) + [Terraform](https://www.terraform.io/), see [function61/james](https://github.com/function61/james) |
 | PKI                             | Root CA in Yubikey, [cfssl](https://github.com/cloudflare/cfssl). [Our toolkit image](https://github.com/function61/certificate-authority). |
 | Secure auth to SSH              | Agent + [Yubikey](https://www.yubico.com/products/yubikey-hardware/)       |
 | Containerization                | [Docker](https://www.docker.com/)                                          |
