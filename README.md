@@ -19,7 +19,7 @@ Infrastructure level decisions
 | Orchestration                   | [Docker Swarm](https://docs.docker.com/engine/swarm/)                      |
 | Container cross-host networking | [Docker Swarm](https://docs.docker.com/engine/swarm/)                      |
 | Orchestration dashboard         | [Portainer](https://portainer.io/)                                         |
-| Backups                         | Cloud provider's VM snapshots for now (TODO: something more efficient)     |
+| Backups                         | [function61/ubackup](https://github.com/function61/ubackup)                |
 | Domain registrar                | [AWS Route53](https://aws.amazon.com/route53/)                             |
 | DNS                             | [Cloudflare](https://www.cloudflare.com/)                                  |
 | DDOS protection                 | [Cloudflare](https://www.cloudflare.com/)                                  |
@@ -27,7 +27,7 @@ Infrastructure level decisions
 | Alerting                        | [function61/lambda-alertmanager](https://github.com/function61/lambda-alertmanager) |
 | Website uptime monitoring       | alertmanager-canary (sub-project of lambda-alertmanager)                   |
 | Public status page              | [UptimeRobot](https://uptimerobot.com/)                                    |
-| Metrics                         | [Prometheus](https://prometheus.io/)                                       |
+| Metrics                         | [Prometheus](https://prometheus.io/) + [function61/promswarmconnect](https://github.com/function61/lambda-promswarmconnect) |
 | Metrics dashboard               | [Grafana](https://grafana.com/)                                            |
 | Container secrets               | ENV variable injection via orchestration                                   |
 | Edge routing                    | [Traefik](https://traefik.io/)                                             |
