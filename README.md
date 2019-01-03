@@ -27,7 +27,7 @@ Infrastructure level decisions
 | Alerting                        | [function61/lambda-alertmanager](https://github.com/function61/lambda-alertmanager) |
 | Website uptime monitoring       | alertmanager-canary (sub-project of lambda-alertmanager)                   |
 | Public status page              | [UptimeRobot](https://uptimerobot.com/)                                    |
-| Metrics                         | [Prometheus](https://prometheus.io/) + [function61/promswarmconnect](https://github.com/function61/lambda-promswarmconnect) |
+| Metrics                         | [Prometheus](https://prometheus.io/) + [function61/promswarmconnect](https://github.com/function61/promswarmconnect) |
 | Metrics dashboard               | [Grafana](https://grafana.com/)                                            |
 | Container secrets               | ENV variable injection via orchestration                                   |
 | Edge routing                    | [Traefik](https://traefik.io/)                                             |
