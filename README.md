@@ -23,7 +23,7 @@ Infrastructure level decisions
 | Domain registrar                | [AWS Route53](https://aws.amazon.com/route53/)                             |
 | DNS                             | [Cloudflare](https://www.cloudflare.com/)                                  |
 | DDOS protection                 | [Cloudflare](https://www.cloudflare.com/)                                  |
-| Centralized logging             | [LogEntries](https://logentries.com/)                                      |
+| Centralized logging             | [Google Stackdriver](https://cloud.google.com/stackdriver/) (see [instructions](https://joonas.fi/2019/01/06/how-to-configure-gcplogs-for-docker/)) |
 | Alerting                        | [function61/lambda-alertmanager](https://github.com/function61/lambda-alertmanager) |
 | Website uptime monitoring       | alertmanager-canary (sub-project of lambda-alertmanager)                   |
 | Public status page              | [UptimeRobot](https://uptimerobot.com/)                                    |
