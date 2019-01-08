@@ -46,7 +46,7 @@ that help with that.
 
 | Problem                         | Solution                                                                   |
 |---------------------------------|----------------------------------------------------------------------------|
-| Philosophy                      | [The Twelfe-Factor App](https://12factor.net/)                             |
+| Philosophy                      | [The Twelve-Factor App](https://12factor.net/)                             |
 | Programming language, backend   | [Go](https://golang.org/)                                                  |
 | Programming language, frontend  | [TypeScript](https://www.typescriptlang.org/)                              |
 | Frontend UI architecture        | [React](https://reactjs.org/)                                              |
