@@ -69,3 +69,4 @@ Miscellaneous design decisions
 | Payment traffic              | [Stripe](https://stripe.com/) |
 | Accounting                   | [ledger-cli](https://www.ledger-cli.org/) |
 | Developer secrets management | [function61/pi-security-module](https://github.com/function61/pi-security-module) |
+| Helpdesk system              | [Freshdesk](https://freshdesk.com/) |
