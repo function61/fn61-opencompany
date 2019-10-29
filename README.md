@@ -8,7 +8,7 @@ Infrastructure level decisions
 
 | Problem (link = more details)   | Solution                                                                   |
 |---------------------------------|----------------------------------------------------------------------------|
-| [Cloud](docs/selecting-a-cloud-provider.md) | [DigitalOcean](https://www.digitalocean.com/)                  |
+| [Cloud](docs/selecting-a-cloud-provider.md) | [Hetzner](https://www.hetzner.com/cloud)                       |
 | Cloud lock-in                   | Only compute to maximize portability, everything else like queues from AWS |
 | Single or multi-DC availability | Multi-DC, probably multi-vendor as well for safety                         |
 | OS                              | [CoreOS](https://coreos.com/os/docs/latest/) with auto-updates disabled    |
