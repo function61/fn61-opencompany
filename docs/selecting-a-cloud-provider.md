@@ -13,6 +13,7 @@ Some smaller players:
 - Vultr (basically a DigitalOcean copy)
 - Packet (a bare-metal cloud)
 - Scaleway
+- Hetzner
 
 Thoughts:
 
@@ -28,5 +29,6 @@ Thoughts:
   although I've had VMs running for a long time on Vultr with no problems.
 - Scaleway is clearly the best regarding the price, but I wouldn't host anything mission critical there as there are
   very many red flags about people's experiences with them when Googling about them.
+- Hetzner seems like really good value for the money, and it's a plus that they have a DC in Finland.
 - As usual for Microsoft, [Azure is technically the weakest choice](https://joonas.fi/2017/01/23/microsoft-azures-networking-is-fundamentally-broken/)
   insofar that they have a forced NAT for no reason that makes some network software not work without special keepalive patches.
