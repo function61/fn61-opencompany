@@ -11,7 +11,7 @@ Infrastructure level decisions
 | [Cloud](docs/selecting-a-cloud-provider.md) | [Hetzner](https://www.hetzner.com/cloud)                       |
 | Cloud lock-in                   | Only compute to maximize portability, everything else like queues from AWS |
 | Single or multi-DC availability | Multi-DC, probably multi-vendor as well for safety                         |
-| OS                              | [CoreOS](https://coreos.com/os/docs/latest/) with auto-updates disabled    |
+| OS                              | [Flatcar Linux](https://www.flatcar.org/) with auto-updates disabled    |
 | Infrastructure immutability     | [Packer](https://www.packer.io/) + [Terraform](https://www.terraform.io/), see [function61/james](https://github.com/function61/james) |
 | PKI                             | Root CA in Yubikey, [cfssl](https://github.com/cloudflare/cfssl). [Our toolkit image](https://github.com/function61/certificate-authority). |
 | Secure auth to SSH              | Agent + [Yubikey](https://www.yubico.com/products/yubikey-hardware/)       |
@@ -30,7 +30,7 @@ Infrastructure level decisions
 | Metrics                         | [Prometheus](https://prometheus.io/) + [function61/promswarmconnect](https://github.com/function61/promswarmconnect) |
 | Metrics dashboard               | [Grafana](https://grafana.com/)                                            |
 | Container secrets               | ENV variable injection via orchestration                                   |
-| Edge routing                    | [Traefik](https://traefik.io/)                                             |
+| Edge routing                    | [function61/edgerouter](https://github.com/function61/edgerouter)          |
 
 
 Application level decisions
@@ -54,7 +54,7 @@ that help with that.
 | CI system                       | [Travis CI](http://travis-ci.org) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
 | Source code hosting             | [GitHub](http://github.com/) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
 | Container image hosting         | [Docker Hub](https://hub.docker.com/) for public stuff, [GitLab](https://about.gitlab.com/) for private stuff |
-| Build artefact hosting          | [Bintray](https://bintray.com/) for public stuff, [AWS S3](https://aws.amazon.com/s3/) for private stuff |
+| Build artefact hosting          | [GitHub](http://github.com/) for public stuff, [AWS S3](https://aws.amazon.com/s3/) for private stuff |
 | Log shipping                    | That's an infrastructure concern                                           |
 | Persistence                     | [Eventhorizon](https://github.com/function61/eventhorizon) + [BoltDB](https://github.com/etcd-io/bbolt) |
 | Session mechanism               | [JWT](https://jwt.io/)                                                     |
